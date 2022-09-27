@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateUsuariosTable extends Migration
@@ -23,6 +24,12 @@ class CreateUsuariosTable extends Migration
             $table->string('palavraRecuperacao');
             $table->timestamps();
         });
+
+        DB::table('usuarios')->insert([
+            ['nome' => 'João Pedro Zorzeto', 'email' => 'joao.zorzeto@gmail.com', 'usuario' => 'fogo','password' => 'foguinho', 'palavraRecuperacao' => 'fogs12345'],
+            ['nome' => 'Anderson Grotto', 'email' => 'anderson.grotto@gmail.com', 'usuario' => 'ande','password' => 'ande22', 'palavraRecuperacao' => 'grtt123'],
+            ['nome' => 'Carlos Dos Santos', 'email' => 'carlos.santos@gmail.com', 'usuario' => 'carlos', 'password' => 'car22', 'palavraRecuperacao' => 'cardosant555']
+        ]);
     }
 
     /**

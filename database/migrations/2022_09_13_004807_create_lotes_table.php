@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateLotesTable extends Migration
@@ -19,6 +20,13 @@ class CreateLotesTable extends Migration
             $table->date('dataFabricacao');
             $table->timestamps();
         });
+
+        DB::table('lotes')->insert([
+            ['quantidadeProduto' => 300, 'dataFabricacao' => '2022-09-25'],
+            ['quantidadeProduto' => 560, 'dataFabricacao' => '2022-10-30'],
+            ['quantidadeProduto' => 420, 'dataFabricacao' => '2022-09-10']
+        ]);
+        
     }
 
     /**

@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateItensPedidosTable extends Migration
@@ -19,6 +20,13 @@ class CreateItensPedidosTable extends Migration
             $table->double('valorTotal');
             $table->timestamps();
         });
+
+        DB::table('itensPedidos')->insert([
+            ['quantidadeItem' => 300, 'valorTotal' => 300.99],
+            ['quantidadeItem' => 560, 'valorTotal' => 440.99],
+            ['quantidadeItem' => 420, 'valorTotal' => 350.99]
+        ]);
+
     }
 
     /**

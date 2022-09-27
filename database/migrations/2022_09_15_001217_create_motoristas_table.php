@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateMotoristasTable extends Migration
@@ -19,6 +20,13 @@ class CreateMotoristasTable extends Migration
             $table->string('telefone');
             $table->timestamps();
         });
+
+        DB::table('motoristas')->insert([
+            ['nome' => 'Armindo Marques', 'telefone' => '52 915478966'],
+            ['nome' => 'Joaquim Pereira', 'telefone' => '62 987454521'],
+            ['nome' => 'Carlos Magros', 'telefone' => '54 996058388)']
+        ]);
+
     }
 
     /**
