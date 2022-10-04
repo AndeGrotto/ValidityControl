@@ -1,6 +1,7 @@
 {
     "packages": [
         {
+<<<<<<< HEAD
             "name": "almasaeed2010/adminlte",
             "version": "v3.2.0",
             "version_normalized": "3.2.0.0",
@@ -47,6 +48,8 @@
             "install-path": "../almasaeed2010/adminlte"
         },
         {
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
             "version_normalized": "2.1.1.0",
@@ -1518,6 +1521,7 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+<<<<<<< HEAD
             "name": "jeroennoten/laravel-adminlte",
             "version": "v3.8.4",
             "version_normalized": "3.8.4.0",
@@ -1581,6 +1585,8 @@
             "install-path": "../jeroennoten/laravel-adminlte"
         },
         {
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             "name": "laravel/framework",
             "version": "v8.83.23",
             "version_normalized": "8.83.23.0",
@@ -2022,6 +2028,7 @@
             "install-path": "../laravel/tinker"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/ui",
             "version": "v3.4.6",
             "version_normalized": "3.4.6.0",
@@ -2161,6 +2168,8 @@
             "install-path": "../laravelcollective/html"
         },
         {
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             "name": "league/commonmark",
             "version": "2.3.5",
             "version_normalized": "2.3.5.0",

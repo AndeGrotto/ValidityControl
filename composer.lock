@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "c495ffebf85960cf97590384bb20cd45",
+=======
+    "content-hash": "dd13a89109663a7122568a16125c06f6",
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1496,6 +1500,7 @@
             "time": "2022-05-20T13:38:08+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravelcollective/html",
             "version": "v6.3.0",
             "source": {
@@ -1568,6 +1573,8 @@
             "time": "2022-02-08T21:02:54+00:00"
         },
         {
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             "name": "league/commonmark",
             "version": "2.3.5",
             "source": {

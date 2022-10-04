@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Auth::routes();
 
 Route::get('caminhoes/list', [\App\Http\Controllers\CaminhoesController::class, 'list']);
@@ -60,5 +61,19 @@ Route::get('usuarios/list', [\App\Http\Controllers\UsuariosController::class, 'l
 Route::get('usuarios/create', [\App\Http\Controllers\UsuariosController::class, 'create']);
 Route::post('usuarios/store', [\App\Http\Controllers\UsuariosController::class, 'store']);
 
+=======
+Route::get('caminhoes', [\App\Http\Controllers\CaminhoesController::class, 'index']);
+Route::get('clientes', [\App\Http\Controllers\ClientesController::class, 'index']);
+Route::get('enderecos', [\App\Http\Controllers\EnderecosController::class, 'index']);
+Route::get('entregas', [\App\Http\Controllers\EntregasController::class, 'index']);
+Route::get('itensPedidos', [\App\Http\Controllers\ItensPedidosController::class, 'index']);
+Route::get('lotes', [\App\Http\Controllers\LotesController::class, 'index']);
+Route::get('motoristas', [\App\Http\Controllers\MotoristasController::class, 'index']);
+Route::get('pedidos', [\App\Http\Controllers\PedidosController::class, 'index']);
+Route::get('produtos', [\App\Http\Controllers\ProdutosController::class, 'index']);
+Route::get('usuarios', [\App\Http\Controllers\UsuariosController::class, 'index']);
+
+Auth::routes();
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

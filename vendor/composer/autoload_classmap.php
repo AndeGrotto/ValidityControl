@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
@@ -23,6 +24,15 @@ return array(
     'App\\Http\\Controllers\\ItensPedidosController' => $baseDir . '/app/Http/Controllers/ItensPedidosController.php',
     'App\\Http\\Controllers\\LotesController' => $baseDir . '/app/Http/Controllers/LotesController.php',
     'App\\Http\\Controllers\\MotoristasController' => $baseDir . '/app/Http/Controllers/MotoristasController.php',
+=======
+    'App\\Http\\Controllers\\CaminhaoController' => $baseDir . '/app/Http/Controllers/CaminhaoController.php',
+    'App\\Http\\Controllers\\ClientesController' => $baseDir . '/app/Http/Controllers/ClientesController.php',
+    'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\EnderecoController' => $baseDir . '/app/Http/Controllers/EnderecoController.php',
+    'App\\Http\\Controllers\\EntregaController' => $baseDir . '/app/Http/Controllers/EntregaController.php',
+    'App\\Http\\Controllers\\ItensPedidoController' => $baseDir . '/app/Http/Controllers/ItensPedidoController.php',
+    'App\\Http\\Controllers\\MotoristaController' => $baseDir . '/app/Http/Controllers/MotoristaController.php',
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     'App\\Http\\Controllers\\PedidosController' => $baseDir . '/app/Http/Controllers/PedidosController.php',
     'App\\Http\\Controllers\\ProdutosController' => $baseDir . '/app/Http/Controllers/ProdutosController.php',
     'App\\Http\\Controllers\\UsuariosController' => $baseDir . '/app/Http/Controllers/UsuariosController.php',
@@ -148,6 +158,7 @@ return array(
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
     'Carbon\\TranslatorImmutable' => $vendorDir . '/nesbot/carbon/src/Carbon/TranslatorImmutable.php',
     'Carbon\\TranslatorStrongTypeInterface' => $vendorDir . '/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php',
+<<<<<<< HEAD
     'Collective\\Html\\Componentable' => $vendorDir . '/laravelcollective/html/src/Componentable.php',
     'Collective\\Html\\Eloquent\\FormAccessible' => $vendorDir . '/laravelcollective/html/src/Eloquent/FormAccessible.php',
     'Collective\\Html\\FormBuilder' => $vendorDir . '/laravelcollective/html/src/FormBuilder.php',
@@ -155,6 +166,8 @@ return array(
     'Collective\\Html\\HtmlBuilder' => $vendorDir . '/laravelcollective/html/src/HtmlBuilder.php',
     'Collective\\Html\\HtmlFacade' => $vendorDir . '/laravelcollective/html/src/HtmlFacade.php',
     'Collective\\Html\\HtmlServiceProvider' => $vendorDir . '/laravelcollective/html/src/HtmlServiceProvider.php',
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Cron\\AbstractField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -1635,6 +1648,7 @@ return array(
     'Illuminate\\Foundation\\Application' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Application.php',
     'Illuminate\\Foundation\\Auth\\Access\\Authorizable' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/Access/Authorizable.php',
     'Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php',
+<<<<<<< HEAD
     'Illuminate\\Foundation\\Auth\\AuthenticatesUsers' => $vendorDir . '/laravel/ui/auth-backend/AuthenticatesUsers.php',
     'Illuminate\\Foundation\\Auth\\ConfirmsPasswords' => $vendorDir . '/laravel/ui/auth-backend/ConfirmsPasswords.php',
     'Illuminate\\Foundation\\Auth\\EmailVerificationRequest' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/EmailVerificationRequest.php',
@@ -1645,6 +1659,10 @@ return array(
     'Illuminate\\Foundation\\Auth\\ThrottlesLogins' => $vendorDir . '/laravel/ui/auth-backend/ThrottlesLogins.php',
     'Illuminate\\Foundation\\Auth\\User' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/User.php',
     'Illuminate\\Foundation\\Auth\\VerifiesEmails' => $vendorDir . '/laravel/ui/auth-backend/VerifiesEmails.php',
+=======
+    'Illuminate\\Foundation\\Auth\\EmailVerificationRequest' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/EmailVerificationRequest.php',
+    'Illuminate\\Foundation\\Auth\\User' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Auth/User.php',
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     'Illuminate\\Foundation\\Bootstrap\\BootProviders' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php',
     'Illuminate\\Foundation\\Bootstrap\\HandleExceptions' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php',
     'Illuminate\\Foundation\\Bootstrap\\LoadConfiguration' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php',
@@ -2210,6 +2228,7 @@ return array(
     'Illuminate\\View\\ViewFinderInterface' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
     'Illuminate\\View\\ViewName' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+<<<<<<< HEAD
     'JeroenNoten\\LaravelAdminLte\\AdminLte' => $vendorDir . '/jeroennoten/laravel-adminlte/src/AdminLte.php',
     'JeroenNoten\\LaravelAdminLte\\AdminLteServiceProvider' => $vendorDir . '/jeroennoten/laravel-adminlte/src/AdminLteServiceProvider.php',
     'JeroenNoten\\LaravelAdminLte\\Console\\AdminLteInstallCommand' => $vendorDir . '/jeroennoten/laravel-adminlte/src/Console/AdminLteInstallCommand.php',
@@ -2276,6 +2295,8 @@ return array(
     'JeroenNoten\\LaravelAdminLte\\View\\Components\\Widget\\ProfileWidget' => $vendorDir . '/jeroennoten/laravel-adminlte/src/View/Components/Widget/ProfileWidget.php',
     'JeroenNoten\\LaravelAdminLte\\View\\Components\\Widget\\Progress' => $vendorDir . '/jeroennoten/laravel-adminlte/src/View/Components/Widget/Progress.php',
     'JeroenNoten\\LaravelAdminLte\\View\\Components\\Widget\\SmallBox' => $vendorDir . '/jeroennoten/laravel-adminlte/src/View/Components/Widget/SmallBox.php',
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'Laravel\\Sail\\Console\\InstallCommand' => $vendorDir . '/laravel/sail/src/Console/InstallCommand.php',
     'Laravel\\Sail\\Console\\PublishCommand' => $vendorDir . '/laravel/sail/src/Console/PublishCommand.php',
@@ -2316,6 +2337,7 @@ return array(
     'Laravel\\Tinker\\Console\\TinkerCommand' => $vendorDir . '/laravel/tinker/src/Console/TinkerCommand.php',
     'Laravel\\Tinker\\TinkerCaster' => $vendorDir . '/laravel/tinker/src/TinkerCaster.php',
     'Laravel\\Tinker\\TinkerServiceProvider' => $vendorDir . '/laravel/tinker/src/TinkerServiceProvider.php',
+<<<<<<< HEAD
     'Laravel\\Ui\\AuthCommand' => $vendorDir . '/laravel/ui/src/AuthCommand.php',
     'Laravel\\Ui\\AuthRouteMethods' => $vendorDir . '/laravel/ui/src/AuthRouteMethods.php',
     'Laravel\\Ui\\ControllersCommand' => $vendorDir . '/laravel/ui/src/ControllersCommand.php',
@@ -2325,6 +2347,8 @@ return array(
     'Laravel\\Ui\\Presets\\Vue' => $vendorDir . '/laravel/ui/src/Presets/Vue.php',
     'Laravel\\Ui\\UiCommand' => $vendorDir . '/laravel/ui/src/UiCommand.php',
     'Laravel\\Ui\\UiServiceProvider' => $vendorDir . '/laravel/ui/src/UiServiceProvider.php',
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     'League\\CommonMark\\CommonMarkConverter' => $vendorDir . '/league/commonmark/src/CommonMarkConverter.php',
     'League\\CommonMark\\ConverterInterface' => $vendorDir . '/league/commonmark/src/ConverterInterface.php',
     'League\\CommonMark\\Delimiter\\Delimiter' => $vendorDir . '/league/commonmark/src/Delimiter/Delimiter.php',

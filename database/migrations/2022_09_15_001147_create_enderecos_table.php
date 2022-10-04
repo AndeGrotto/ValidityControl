@@ -26,9 +26,15 @@ class CreateEnderecosTable extends Migration
         });
 
         DB::table('enderecos')->insert([
+<<<<<<< HEAD
             ['cidade' => 'David Canabarro', 'estado' => 'RS', 'cep' => '99980-000', 'bairro' => 'Interior', 'rua' => 'Nossa Senhora da Salete', 'numero' => 2707],
             ['cidade' => 'Passo Fundo', 'estado' => 'RS', 'cep' => '99598-250', 'bairro' => 'Avenida Brasil', 'rua' => 'Centro', 'numero' => 48],
             ['cidade' => 'Barra Funda', 'estado' => 'RS', 'cep' => '99877-320', 'bairro' => 'Interior', 'rua' => 'Centro', 'numero' => 778]
+=======
+            ['cidade' => 'David Canabarro', 'estado' => 'RS', 'cep' => '99980-000', 'bairro' => 'Interior', 'rua' => 'Nossa Senhora da Salete', 'numero' => '2707'],
+            ['cidade' => 'Passo Fundo', 'estado' => 'RS', 'cep' => '99598-250', 'bairro' => 'Avenida Brasil', 'rua' => 'Centro', 'numero' => '48'],
+            ['cidade' => 'Barra Funda', 'estado' => 'RS', 'cep' => '99877-320', 'bairro' => 'Interior', 'rua' => 'Centro', 'numero' => '778']
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         ]);
     }
 

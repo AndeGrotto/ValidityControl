@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 use PhpParser\ErrorHandler\Collecting;
 
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
 return [
 
     /*
@@ -164,9 +167,12 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+<<<<<<< HEAD
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
 
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         /*
          * Package Service Providers...
          */
@@ -178,7 +184,11 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+<<<<<<< HEAD
         //App\Providers\RouteServiceProvider::class,
+=======
+        App\Providers\RouteServiceProvider::class,
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
 
     ],
 
@@ -235,9 +245,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+<<<<<<< HEAD
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
 
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     ],
 
 ];

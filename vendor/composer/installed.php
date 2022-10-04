@@ -1,15 +1,22 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
+<<<<<<< HEAD
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
         'reference' => 'd7f5c4e1064ee77c927837d6cfe87d3fc400d1e2',
+=======
+        'pretty_version' => 'v8.6.12',
+        'version' => '8.6.12.0',
+        'reference' => NULL,
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+<<<<<<< HEAD
         'almasaeed2010/adminlte' => array(
             'pretty_version' => 'v3.2.0',
             'version' => '3.2.0.0',
@@ -19,6 +26,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         'asm89/stack-cors' => array(
             'pretty_version' => 'v2.1.1',
             'version' => '2.1.1.0',
@@ -388,6 +397,7 @@
                 0 => 'v8.83.23',
             ),
         ),
+<<<<<<< HEAD
         'jeroennoten/laravel-adminlte' => array(
             'pretty_version' => 'v3.8.4',
             'version' => '3.8.4.0',
@@ -397,6 +407,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -413,9 +425,15 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
+<<<<<<< HEAD
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'reference' => 'd7f5c4e1064ee77c927837d6cfe87d3fc400d1e2',
+=======
+            'pretty_version' => 'v8.6.12',
+            'version' => '8.6.12.0',
+            'reference' => NULL,
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -457,6 +475,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'laravel/ui' => array(
             'pretty_version' => 'v3.4.6',
             'version' => '3.4.6.0',
@@ -475,6 +494,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         'league/commonmark' => array(
             'pretty_version' => '2.3.5',
             'version' => '2.3.5.0',
@@ -766,8 +787,13 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
+<<<<<<< HEAD
                 0 => '1.0.0 || 2.0.0 || 3.0.0',
                 1 => '1.0|2.0',
+=======
+                0 => '1.0|2.0',
+                1 => '1.0.0 || 2.0.0 || 3.0.0',
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
             ),
         ),
         'psr/simple-cache' => array(

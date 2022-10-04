@@ -252,6 +252,18 @@ return [
     |
     */
 
+<<<<<<< HEAD
+=======
+    'use_route_url' => false,
+    'dashboard_url' => 'home',
+    'logout_url' => 'logout',
+    'login_url' => 'login',
+    'register_url' => 'register',
+    'password_reset_url' => 'password/reset',
+    'password_email_url' => 'password/email',
+    'profile_url' => false,
+
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
     /*
     |--------------------------------------------------------------------------
     | Laravel Mix
@@ -282,6 +294,7 @@ return [
 
     'menu' => [
         // Navbar items:
+<<<<<<< HEAD
         [
             'text'        => 'Caminhões',
             'url'         => 'caminhoes/list',
@@ -331,6 +344,67 @@ return [
             'text'        => 'Usuários',
             'url'         => 'usuarios/list',
             'icon'        => 'fas fa-fw fa-user-tie',
+=======
+        ['header'=>'CAMINHÕES'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'caminhoes',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'CLIENTES'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'clientes',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'ENDEREÇOS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'enderecos',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'ENTREGAS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'entregas',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'ITENS DO PEDIDO'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'pedido',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'LOTES'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'lotes',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'MOTORISTAS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'motoristas',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'PEDIDOS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'pedidos',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'PRODUTOS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'produtos',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        ['header'=>'USUÁRIOS'],
+        [
+            'text'        => 'Listagem',
+            'url'         => 'usuarios',
+            'icon'        => 'fas fa-fw fa-users',
+>>>>>>> d7f5c4e1064ee77c927837d6cfe87d3fc400d1e2
         ],
     ],
 
